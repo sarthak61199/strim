@@ -9,7 +9,7 @@ This document outlines all user stories for the lightweight, self-hosted media s
 **Goal:** As the developer, I want a fully bootstrapped monorepo with clean architecture, so I can build features quickly without worrying about setup.
 
 [x] - **US-0.1:** I can create a Turborepo monorepo with `apps/`, `packages/`, and `infra/` folders already in place.
-[] - **US-0.2:** I have a root `package.json` with workspaces and scripts (`dev`, `build`, `lint`, `test`).
+[x] - **US-0.2:** I have a root `package.json` with workspaces and scripts (`dev`, `build`, `lint`, `test`).
 [] - **US-0.3:** I have `turbo.json` configured to build apps/packages in dependency order.
 [] - **US-0.4:** I have a `server` app scaffolded with Hono/Fastify + TS and hot reload.
 [] - **US-0.5:** I have a `web` app scaffolded with Next.js + Tailwind + TS.
