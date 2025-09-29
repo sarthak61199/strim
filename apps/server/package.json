@@ -1,0 +1,32 @@
+{
+  "name": "@strim/server",
+  "version": "0.0.0",
+  "private": true,
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint src --ext .ts --fix",
+    "check-types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "hono": "^4.9.9",
+    "@hono/node-server": "^1.19.5",
+    "@strim/types": "file:../../packages/types",
+    "@strim/utils": "file:../../packages/utils",
+    "@strim/config": "file:../../packages/config",
+    "pino": "^9.12.0",
+    "zod": "^4.1.11"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.2",
+    "eslint": "^9.23.0",
+    "@typescript-eslint/eslint-plugin": "^8.44.1",
+    "@typescript-eslint/parser": "^8.44.1"
+  }
+}
