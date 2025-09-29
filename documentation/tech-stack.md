@@ -42,7 +42,7 @@ This document describes the technology stack used for the media server + player.
 
 ## Frontend (Web Player)
 
-- **Framework:** Next.js 13+ (App Router)
+- **Framework:** React 19.1.0 + Vite
 - **UI:** Tailwind CSS + shadcn/ui
 - **Player:** HTML5 `<video>` + hls.js (adaptive streaming)
 - **State Management:** React Query / TanStack Query
