@@ -11,8 +11,8 @@ This document outlines all user stories for the lightweight, self-hosted media s
 [x] - **US-0.1:** I can create a Turborepo monorepo with `apps/`, `packages/`, and `infra/` folders already in place.
 [x] - **US-0.2:** I have a root `package.json` with workspaces and scripts (`dev`, `build`, `lint`, `test`).
 [x] - **US-0.3:** I have `turbo.json` configured to build apps/packages in dependency order.
-[] - **US-0.4:** I have a `server` app scaffolded with Hono/Fastify + TS and hot reload.
-[] - **US-0.5:** I have a `web` app scaffolded with Next.js + Tailwind + TS.
+[x] - **US-0.4:** I have a `server` app scaffolded with Hono/Fastify + TS and hot reload.
+[x] - **US-0.5:** I have a `web` app scaffolded with React + Vite + Tailwind + TS.
 [] - **US-0.6:** I have an optional `cli` app for admin tasks.
 [] - **US-0.7:** Running `npm run dev` starts server and web together, with live reload.
 [] - **US-0.8:** I have shared packages for `types`, `utils`, `config`, and `db`.
