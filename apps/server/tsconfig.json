@@ -4,6 +4,7 @@
     "outDir": "./dist",
     "rootDir": "./src",
     "baseUrl": ".",
+    "tsBuildInfoFile": ".tsbuildinfo",
     "paths": {
       "@/*": ["./src/*"],
       "@strim/*": ["../../packages/*"]
